@@ -42,7 +42,7 @@ body{
 }
 
 .btn::after{
-    content: 'HOLA!';
+    content: '¡Hecho!';
     position: absolute;
     top: 45%;
     left: 45%;
