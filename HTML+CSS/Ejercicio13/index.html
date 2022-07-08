@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de interes en Bootstrap</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- hoja de estilo propia -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body class="bg-light w-75 me-auto ms-auto">
+    <!-- Jumbotron -->
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5 bg-light">
+            <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            <div class="modal-body">
+                <p>Hey! i'm a Modal</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            </div>
+        </div>
+    </div>   
+    <hr>
+    
+    <!-- Formulario de contacto -->
+    <div class="container ms-auto me-auto py-5 bg-light w-75">
+        <h2 class="pb-3 text-center fw-semibold">Formulario</h2>
+        <form action="">
+            <div class="row g-3">
+                <div class="form-floating mb-3">
+                    <input type="name" class="form-control" id="floatingInput" placeholder="name">
+                    <label for="floatingInput">Nombre</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="tel" class="form-control" id="floatingInput" placeholder="xxx xxx xxx">
+                    <label for="floatingInput">Numero de celular</label>
+                </div>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Mensaje</label>
+            </div>
+            <div class="d-flex justify-content-center py-4">
+                <button type="submit" class="btn btn-primary ">Submit</button>
+            </div>
+        </form>
+    </div>
+    
+    <hr>
+    <!-- tarjeta de perfil -->
+    <div class="card py-2 border-bottom ms-auto me-auto mb-5 shadow-sm p-3 mb-5 bg-body rounded text-center" style="width: 18rem;">
+        <div class="card-body bg-white ">
+            <h5 class="card-title fs-4">Maria Jose Galeano</h5>
+            <h6 class="card-subtitle mb-2 text-muted fs-6 fw-light fst-italic">Frontend developer React Js</h6>
+            <p class="card-text fw-normal">Open BootCamp student in React js Frontend development career.</p>
+            <span class="text-success fst-italic text-decoration-underline">Galeano19.maria@gmail.com</span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
