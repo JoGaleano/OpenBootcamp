@@ -4,6 +4,7 @@
   "description": "Mi primer proyecto de JS con Node en OpenBootcamp",
   "main": "index.js",
   "scripts": {
+    "saludar": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jo Galeano",
