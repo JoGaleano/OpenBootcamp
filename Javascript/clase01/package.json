@@ -1,0 +1,11 @@
+{
+  "name": "clase01",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto de JS con Node en OpenBootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jo Galeano",
+  "license": "ISC"
+}
