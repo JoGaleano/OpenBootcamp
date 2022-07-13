@@ -35,6 +35,7 @@ let sinEspacio = estudiante.replace(/ /g, "");
 console.log(sinEspacio);
 
 //Una variable booleana que diga si el Nombre está contenido en la variable "estudiante"
-console.log('Maria Jose' === name);
+let verificar = estudiante.includes("Maria Jose");
+console.log(verificar);
 
 
